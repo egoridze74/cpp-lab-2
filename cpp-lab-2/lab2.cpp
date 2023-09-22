@@ -44,8 +44,8 @@ int main()
 {
 	double y, numerator, denominator, result;
 	scanf_s("%Lf", &y);
-	numerator = 7 * get_t(0.25) + 2 * get_t(1 + y);
-	denominator = 6 - get_t(in_power(y, 2) - 1);
+	numerator = 7 * get_t(0.25) + 2 * get_t(1 + y); //числитель дроби
+	denominator = 6 - get_t(in_power(y, 2) - 1); //знаменатель дроби
 	result = numerator / denominator;
 	printf("%.5Lf", result);
 	return 0;
